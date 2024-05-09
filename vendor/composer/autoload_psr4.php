@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Twm\\Wmsoft\\' => array($baseDir . '/src'),
+    'Zsywm\\Wmsoft\\' => array($baseDir . '/src'),
 );

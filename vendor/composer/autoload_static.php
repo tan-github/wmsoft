@@ -9,12 +9,12 @@ class ComposerStaticInit50cc4e27e90e2417b68da5b8fb8a312e
     public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
-            'Twm\\Wmsoft\\' => 11,
+            'Zsywm\\Wmsoft\\' => 11,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Twm\\Wmsoft\\' => 
+        'Zsywm\\Wmsoft\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

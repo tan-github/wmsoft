@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'twm/wmsoft',
+        'name' => 'zsywm/wmsoft',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
         'reference' => '5ce75183f7d2f2ed67d60f31278283861da87f94',
@@ -10,7 +10,7 @@
         'dev' => true,
     ),
     'versions' => array(
-        'twm/wmsoft' => array(
+        'zsywm/wmsoft' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'reference' => '5ce75183f7d2f2ed67d60f31278283861da87f94',

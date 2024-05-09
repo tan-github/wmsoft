@@ -1,11 +1,11 @@
 {
-  "name": "twm/wmsoft",
+  "name": "zsywm/wmsoft",
   "description": "自定义workerman框架",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Twm\\Wmsoft\\": "src/"
+      "Zsywm\\Wmsoft\\": "src/"
     }
   },
   "minimum-stability": "stable",
