@@ -3,13 +3,13 @@
  * Created by PhpStorm.
  * User: Administrator
  * Date: 2024/5/9
- * Time: 16:43
+ * Time: 17:30
  */
 
-namespace Wm\Wmsoft\server;
+namespace Zsymv\Wmsoft\server;
 
 
-use Wm\Wmsoft\wm\Wm;
+use Zsymv\Wmsoft\wm\Wm;
 
 class Application
 {

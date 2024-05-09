@@ -6,7 +6,7 @@
  * Time: 16:42
  */
 
-namespace Wm\Wmsoft\wm;
+namespace Zsymv\Wmsoft\wm;
 
 
 class Wm
