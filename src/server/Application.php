@@ -9,7 +9,7 @@
 namespace Zsymv\Wmsoft\server;
 
 
-use Zsymv\Wmsoft\wm\Wm;
+use Zsymv\Wmsoft\wm\WM;
 
 class Application
 {
@@ -26,7 +26,7 @@ class Application
     public function __construct($config = array())
     {
         foreach ($config as $key => $value) {
-            Wm::$app->$key = $value;
+            WM::$app->$key = $value;
 
             if ($key == 'time_zone') {
                 $this->setTimeZone($value);

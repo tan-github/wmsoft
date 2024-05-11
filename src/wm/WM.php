@@ -9,7 +9,7 @@
 namespace Zsymv\Wmsoft\wm;
 
 
-class Wm
+class WM
 {
     public static $app;
 
@@ -28,7 +28,7 @@ class Wm
     {
 
         // TODO: Implement __get() method.
-        if (isset(self::$app->components) && isset(self::$app->components[$name]) && !isset(Wm::$app->$name)) {
+        if (isset(self::$app->components) && isset(self::$app->components[$name]) && !isset(WM::$app->$name)) {
             self::$app->$name = $this->create_object(self::$app->components[$name]);
 
             return self::$app->$name;
@@ -49,4 +49,4 @@ class Wm
 
 }
 
-new Wm();
+new WM();
